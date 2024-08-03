@@ -14,8 +14,7 @@
   - Set up Linux Environment by following on-screen instructions
   - Install strace ([Detailed Linux Strace Document](https://man7.org/linux/man-pages/man1/strace.1.html)):
     ```sh
-    # Update package list: sudo apt update
-    # Install 'strace': sudo apt install strace
+    sudo apt install strace
     ```
 2. Python Packages:
    ```sh
@@ -30,3 +29,4 @@
    git clone https://github.com/kaydenpham27/MicroserviceEvaluation/
    ```
 ## Usage
+
