@@ -21,4 +21,12 @@
    ```sh
    sudo apt install python3
    ```
-3. 
+3. Inotify WSL:
+   ```sh
+   sudo apt install inotify-tools
+   ```
+4. Clone this repository:
+   ```sh
+   git clone https://github.com/kaydenpham27/MicroserviceEvaluation/
+   ```
+## Usage
