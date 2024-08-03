@@ -24,15 +24,16 @@
    ```sh
    sudo apt install inotify-tools
    ```
-4. Clone this repository:
+4. Tool Setup:
    ```sh
    git clone https://github.com/kaydenpham27/MicroserviceEvaluation/
+   sudo chmod a+x Auto.sh fuzz.sh Tool.py
    ```
 ## Usage
 In the example below, I use a simple RestAPI (main.py) as the evaluating microservice, feel free to change it with your actual testing software. 
-Besides, one might need multiple Linux screens running simultaneously for different purposes, including running the evaluating software, tracing the software information, running FUSE and issuing requests to the software. I recommend using Linux Screen, a terminal multiplexer that allows you to manage multiple terminal sessions within a single window, however, open multiple windows would also work. 
+Besides, one might need multiple Linux screens running simultaneously for different purposes, including running the evaluating software, tracing the software information, running FUSE and issuing requests to the software. I recommend using Linux Screen, a terminal multiplexer that allows you to manage multiple terminal sessions within a single window, however, opens multiple windows would also work. 
 ### Example
-1. Run the evaluating software/application:
+1. Run the evaluating software/application (screen 1):
    ```sh
    python main.py
    ```
@@ -40,9 +41,17 @@ Besides, one might need multiple Linux screens running simultaneously for differ
    ```sh
    ps aux | grep main.py 
    ```
-3. Attach Strace to the running application's ProcessID (PID):
+3. Attach Strace to the running application's ProcessID (PID) (screen 2):
    ```sh
    sudo strace -f -ff -o strace_output.txt -s 4096 -t -v -p PID
    ```
-4. 
+4. Starts the inotify watches (screen 3):
+   ```sh
+   sudo .\Auto.sh
+   ```
+5. (Optional) Running fuzzer to issue requests automatically for software evaluating (screen 4):
+   ```sh
+   sudo .\fuzz.sh
+   ```
+
 
