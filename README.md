@@ -53,5 +53,7 @@ Besides, one might need multiple Linux screens running simultaneously for differ
    ```sh
    sudo .\fuzz.sh
    ```
+### Results
+After each request, strace produces a strace_output.txt file representing the combination of system calls used by Kernel to handle the most recent request, for instance:
 
 
