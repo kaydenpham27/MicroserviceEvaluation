@@ -29,10 +29,20 @@
    git clone https://github.com/kaydenpham27/MicroserviceEvaluation/
    ```
 ## Usage
-In the example below, I use a simple RestAPI as the evaluating microservice, feel free to change it with your actual testing software
+In the example below, I use a simple RestAPI (main.py) as the evaluating microservice, feel free to change it with your actual testing software. 
+Besides, one might need multiple Linux screens running simultaneously for different purposes, including running the evaluating software, tracing the software information, running FUSE and issuing requests to the software. I recommend using Linux Screen, a terminal multiplexer that allows you to manage multiple terminal sessions within a single window, however, open multiple windows would also work. 
 ### Example
 1. Run the evaluating software/application:
-  ```sh
-  python main.py
-  ```
+   ```sh
+   python main.py
+   ```
+2. Grep the running application's ProcessID:
+   ```sh
+   ps aux | grep main.py 
+   ```
+3. Attach Strace to the running application's ProcessID (PID):
+   ```sh
+   sudo strace -f -ff -o strace_output.txt -s 4096 -t -v -p PID
+   ```
+4. 
 
