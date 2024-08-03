@@ -5,5 +5,5 @@
 # Table of Contents
 ## Installation Instructions ##
 ### Prerequisites ###
-### Windows: ###
+### 1. Windows ###
 - 
