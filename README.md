@@ -59,5 +59,7 @@ Besides, one might need multiple Linux screens running simultaneously for differ
 - Digest.txt is updated with the digest value (hash value) of the latest created trace (strace_output.txt file):
   ![Digest Example](https://github.com/kaydenpham27/MicroserviceEvaluation/blob/main/Images/Digest_Example.png)
 - DigestString.txt is updated with the hashing string of system call (optionally their parameters and return values) of the latest created trace:
+  ![DigestString_Example](https://github.com/kaydenpham27/MicroserviceEvaluation/blob/main/Images/DigestString_Example.png)
 - Distribution.txt is updated with the new frequency distribution of unique digests in the sample space:
+  ![Distribution_Example](https://github.com/kaydenpham27/MicroserviceEvaluation/blob/main/Images/Distribution_Example.png)
 - Inconsistency.txt is updated with inconsistencies between the newly created trace and the baseline trace:
