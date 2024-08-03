@@ -7,5 +7,7 @@
 ### Prerequisites ###
 ### 1. Windows ###
 - Enables Windows Subsystem for Linux
-- Install Ubuntu
--  
+- Install A Linux distribution (e.g., Ubuntu) 
+- Set up Linux Environment by following on-screen instructions
+- Install strace:
+- code()
