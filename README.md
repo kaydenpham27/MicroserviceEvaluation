@@ -6,4 +6,6 @@
 ## Installation Instructions ##
 ### Prerequisites ###
 ### 1. Windows ###
-- 
+- Enables Windows Subsystem for Linux
+- Install Ubuntu
+-  
