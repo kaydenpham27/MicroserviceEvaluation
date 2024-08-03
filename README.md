@@ -8,7 +8,7 @@
 - Linux Strace Built-in Tool
 - Python Packages
 ### Installation Steps ### 
-1. Setup Linux Environment + Strace
+1. Linux Environment + Strace
   - Enables Windows Subsystem for Linux
   - Install A Linux distribution (e.g., Ubuntu) 
   - Set up Linux Environment by following on-screen instructions
@@ -17,3 +17,5 @@
     # Update package list: sudo apt update
     # Install 'strace': sudo apt install strace
     ```
+2. Python Packages:
+   - 
