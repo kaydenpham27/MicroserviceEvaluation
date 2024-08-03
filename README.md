@@ -18,4 +18,7 @@
     # Install 'strace': sudo apt install strace
     ```
 2. Python Packages:
-   - asdas 
+   ```sh
+   sudo apt install python3
+   ```
+3. 
