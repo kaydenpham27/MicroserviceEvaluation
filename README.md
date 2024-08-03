@@ -10,6 +10,9 @@
 - Install A Linux distribution (e.g., Ubuntu) 
 - Set up Linux Environment by following on-screen instructions
 - Install strace:
-  '''
-  asdasd
+  '''sh
+  # Update package list:
+  sudo apt update
+  # Install 'strace':
+  sudo apt install strace
   '''
