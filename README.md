@@ -55,5 +55,5 @@ Besides, one might need multiple Linux screens running simultaneously for differ
    ```
 ### Results
 After each request, strace produces a strace_output.txt file representing the combination of system calls used by Kernel to handle the most recent request, for instance:
-
+![Trace Example](https://github.com/kaydenpham27/MicroserviceEvaluation/blob/main/Images/Trace_Example.png)
 
