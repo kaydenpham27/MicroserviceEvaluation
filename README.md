@@ -29,4 +29,10 @@
    git clone https://github.com/kaydenpham27/MicroserviceEvaluation/
    ```
 ## Usage
+In the example below, I use a simple RestAPI as the evaluating microservice, feel free to change it with your actual testing software
+### Example
+1. Run the evaluating software/application:
+  ```sh
+  python main.py
+  ```
 
