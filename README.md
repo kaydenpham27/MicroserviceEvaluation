@@ -5,6 +5,9 @@
 # Table of Contents
 ## Installation Instructions ##
 ### Prerequisites ###
+- Linux Strace Built-in Tool
+- Python Packages
+### Installation Steps ### 
 ### 1. Windows ###
 - Enables Windows Subsystem for Linux
 - Install A Linux distribution (e.g., Ubuntu) 
