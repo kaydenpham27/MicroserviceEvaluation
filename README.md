@@ -9,10 +9,8 @@
 - Enables Windows Subsystem for Linux
 - Install A Linux distribution (e.g., Ubuntu) 
 - Set up Linux Environment by following on-screen instructions
-- Install strace:
+- Install strace ([Detailed Linux Strace Document](https://man7.org/linux/man-pages/man1/strace.1.html)):
   ```sh
-  # Update package list:
-  sudo apt update
-  # Install 'strace':
-  sudo apt install strace
+  # Update package list: sudo apt update
+  # Install 'strace': sudo apt install strace
   ```
