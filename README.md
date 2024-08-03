@@ -54,6 +54,10 @@ Besides, one might need multiple Linux screens running simultaneously for differ
    sudo .\fuzz.sh
    ```
 ### Results
-After each request, strace produces a strace_output.txt file representing the combination of system calls used by Kernel to handle the most recent request, for instance:
-![Trace Example](https://github.com/kaydenpham27/MicroserviceEvaluation/blob/main/Images/Trace_Example.png)
-
+- After each request, strace produces a strace_output.txt file representing the combination of system calls used by Kernel to handle the most recent request:
+  ![Trace Example](https://github.com/kaydenpham27/MicroserviceEvaluation/blob/main/Images/Trace_Example.png)
+- Digest.txt is updated with the digest value (hash value) of the latest created trace (strace_output.txt file):
+  ![Digest Example](
+- DigestString.txt is updated with the hashing string of system call (optionally their parameters and return values) of the latest created trace:
+- Distribution.txt is updated with the new frequency distribution of unique digests in the sample space:
+- Inconsistency.txt is updated with inconsistencies between the newly created trace and the baseline trace:
