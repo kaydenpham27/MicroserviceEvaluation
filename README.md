@@ -10,4 +10,6 @@
 - Install A Linux distribution (e.g., Ubuntu) 
 - Set up Linux Environment by following on-screen instructions
 - Install strace:
-- code()
+  '''
+  asdasd
+  '''
